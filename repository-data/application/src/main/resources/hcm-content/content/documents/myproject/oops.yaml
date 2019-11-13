@@ -1,0 +1,62 @@
+/content/documents/myproject/oops:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 946faace-f8f0-4e44-9458-f660768a77c0
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4c22bca1-8534-4b3e-87b2-4209366aef1f
+  hippotranslation:locale: en
+  /oopsiedaisy:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d0f62409-00f5-4e02-b01d-56ab5a5df52c
+    hippo:name: Oopsiedaisy
+    hippo:versionHistory: 487ba048-56a1-46df-91b0-7be2b6d6717d
+    /oopsiedaisy[1]:
+      jcr:primaryType: myproject:oops
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ec43d214-8e0e-4e5e-ba35-0e127ebead5d
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-13T14:51:16.149+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-13T14:51:16.149+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 915f8b50-7b9d-40c2-93e1-22e9f9a3d414
+      hippotranslation:locale: en
+      myproject:again: '....'
+      myproject:did: that
+      myproject:i: not
+      myproject:it: easy
+    /oopsiedaisy[2]:
+      jcr:primaryType: myproject:oops
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 47fc6a1a-c134-4aca-8999-b231fc395422
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-13T14:51:16.149+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-13T14:51:50.509+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 915f8b50-7b9d-40c2-93e1-22e9f9a3d414
+      hippotranslation:locale: en
+      myproject:again: '....'
+      myproject:did: that
+      myproject:i: not
+      myproject:it: easy
+    /oopsiedaisy[3]:
+      jcr:primaryType: myproject:oops
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c49af95d-e72c-4067-a263-b32375c3ee78
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-13T14:51:16.149+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-13T14:51:50.509+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-13T14:51:53.859+01:00
+      hippotranslation:id: 915f8b50-7b9d-40c2-93e1-22e9f9a3d414
+      hippotranslation:locale: en
+      myproject:again: '....'
+      myproject:did: that
+      myproject:i: not
+      myproject:it: easy
